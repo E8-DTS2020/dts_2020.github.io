@@ -80,49 +80,52 @@ header {
 
 /* bagian top-wrapper */
 .title-inform {
-  margin-bottom: 130px;
   opacity: 0.9;
   font-size: 45px;
   letter-spacing: 5px;
 }
 .top-wrapper {
-  padding-top: 150px;
-  height: 765px;
-  background-image: url(src/top.png);
+  padding-top: 85px;
+  height: auto;
+  background-image: url(src/peta.png);
+  background-color: rgb(26, 150, 150);
   background-size: cover;
   color: white;
-  text-align: center;
+  text-align: center; 
 }
 
 .content {
-  height: 450px;
-  padding: 5px 5px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 490px;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
   align-items: flex-end;
+  align-content: center;
 }
 
 .informasi {
   width: 40%;
   padding: 20px;
   border-radius: 10px 10px 0 0;
-  
+  transition: all 0.5s;
 }
 .informasi.satu {
-  background-color: rgb(45, 100, 100, 0.8);
+  background-color: rgba(230, 51, 6, 0.7);
   margin: 10px 10px;
 }
 .informasi.dua {
-  background-color: rgb(60, 23, 228, 0.8);
+  background-color: rgb(60, 23, 228, 0.7);
   margin: 10px 10px;
 }
 .informasi.tiga {
-  background-color: rgb(81, 228, 23, 0.8);
+  background-color: rgb(81, 228, 23, 0.7);
   margin: 10px 10px;
 }
 .informasi.empat {
-  background-color: rgba(153, 54, 8, 0.8);
+  background-color: rgba(153, 54, 8, 0.7);
   margin: 10px 10px;
 }
 
@@ -131,10 +134,26 @@ header {
 }
 
 .informasi h2 {
-  font-size: 20px;
+  font-size: 100%;
 }
 
-
+/* animasi tombol*/
+.informasi.satu:hover {
+  background-color: rgba(230, 51, 6, 0.9);
+  cursor: pointer;
+}
+.informasi.dua:hover {
+  background-color: rgb(60, 23, 228, 0.9);
+  cursor: pointer;
+}
+.informasi.tiga:hover {
+  background-color: rgb(81, 228, 23, 0.9);
+  cursor: pointer;
+}
+.informasi.empat:hover {
+  background-color: rgba(153, 54, 8, 0.9);
+  cursor: pointer;
+}
 
 footer {
   border-top: 1px solid gray;
@@ -157,6 +176,10 @@ footer p {
   font-size: 12px;
 }
 
+/* lesson wrapper*/
+.lesson-wrapper {
+  height: 600px;
+}
 /*responsive smartphone*/
 
 @media all and (max-width: 670px){
@@ -191,7 +214,7 @@ footer p {
     height: auto;
   }
   .content {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .informasi {
     border-radius: 10px;
@@ -202,3 +225,4 @@ footer p {
   .informasi h2 {
     font-size: 14px;
   }
+}
