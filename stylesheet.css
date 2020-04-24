@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 60px;
+  width: 70px;
+  margin-top: 2px;
+}
+
+
+.header-left {
+  float: left;
+}
+
+.header-left img:hover {
+  background-color: rgb(255,255,255);
+  cursor: pointer;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;  
+  display: none;
+}
+
+footer {
+  border-top: 1px solid gray;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+}
+
+footer img {
+  width: 70px;
+}
+
+footer p {
+  color: #837f85;
+  font-size: 12px;
+} 
+
+.heading h2{
+  margin-top: 5px;
+  top:5px;
+  left:10px; 
+  color: white;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
+
+  #box1{
+        margin-top: 50px;
+        color:white;
+        text-align: center;
+        width:150px;
+        height:150px;
+        background:brown;
+        border-radius: 5px;
+        top: 70px;
+        font-size:20px;
+        font-family: serif;
+      }
+
+#box2{
+         margin-top: 10px;
+        color:white;
+        text-align: center;
+        width:150px;
+        height:150px;
+        background:green;
+        border-radius: 5px;
+        position: absolute;
+        top: 70px;
+        left:330px;
+        font-size: 12px;
+        font-size:20px;
+        font-family: serif;
+      }
+
+
+      #box3{
+        margin-top: 20px;
+        color:white;
+        text-align: center;
+        width:150px;
+        height:150px;
+        background:blue;
+        border-radius: 5px;
+        position: absolute;
+        top: 60px;
+        left:600px;
+        font-size:20px;
+        font-family: serif;
+
+      }
+
+      #box4{
+        margin-top: 20px;
+        color:white;
+        text-align: center;
+        width:150px;
+        height:150px;
+        background:red;
+        border-radius: 5px;
+        position: absolute;
+        top: 60px;
+        left:900px;
+        font-size:20px;
+        font-family: serif;
+      }
+
+      
+}
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents{
+  width:100%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+   text-align: center;
+}
+
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+  
+
+}
+
