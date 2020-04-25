@@ -2,8 +2,14 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
+html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
   font-family: "Lucida Grande";
 }
 
@@ -14,6 +20,7 @@ body {
   margin: 0 auto;
 }
 
+/* header */
 header {
   height: 65px;
   width: 100%;
@@ -25,17 +32,13 @@ header {
 
 .logo {
   height: 60px;
-  width: 70px;
+  width: auto;
   margin-top: 2px;
 }
 
 
 .header-left {
   float: left;
-}
-
-.header-left img:hover {
-  background-color: rgb(255,255,255);
   cursor: pointer;
 }
 
@@ -64,7 +67,95 @@ header {
   padding: 21px 0;  
   display: none;
 }
+/* End header */
 
+/* top-wrapper */
+.title-inform {
+  margin-bottom: 10px;  
+  font-size: 45px;
+  opacity: 0.9;
+  /* font-size: 45px; */
+  /* letter-spacing: 5px; */
+}
+
+.top-wrapper {
+  padding: 130px 0 100px 0;
+  background-image: url(src/peta.png);
+  background-size: cover;
+  background-color: rgb(26, 150, 150);
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;  
+  margin-bottom: 10px;
+  /* opacity: 0.7; */
+}
+
+.content {
+  max-width: 1170px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 4px;
+  color: white;
+  /* float: left; */
+  /* width: 60%; */
+  /* display: inline-block; */
+  /* padding: 5px 5px; */
+  /* box-sizing: border-box; */
+  /* display: inline-block; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+}
+
+.informasi {
+  padding: 12px 20px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 25px;
+  width: 40%;
+  cursor: pointer;
+  box-shadow: 0 7px #6c746f;
+  /* margin-top: 5px; */
+  /* border: 2px solid rgba(138, 120, 120, 0.849); */
+  /* padding: 10px; */
+  /* padding: 20px; */
+  /* border-radius: 10px 10px 0 0; */
+
+}
+.informasi:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.informasi.satu {
+  background-color: #d88f8f;
+  margin: 5px 5px;
+}
+.informasi.dua {
+  background-color: #d88f8f;
+  margin: 5px 5px;
+}
+.informasi.tiga {
+  background-color: #31dba8;
+  margin: 20px 5px;
+}
+.informasi.empat {
+  background-color: #31dba8;
+  margin: 20px 5px;
+}
+
+.informasi p {
+  font-size: 200%;
+}
+
+.informasi h2 {
+  font-size: 20px;
+}
+/* end top-wrapper */
+
+/* footer */
 footer {
   border-top: 1px solid gray;
   width: 100%;
@@ -72,7 +163,6 @@ footer {
   bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  position: fixed;
 }
 
 footer img {
@@ -83,3 +173,4 @@ footer p {
   color: #837f85;
   font-size: 12px;
 }
+/* end footer */
