@@ -1,4 +1,3 @@
-/*responsive tablet*/
 @media all and (min-width: 670px){
   .container .menu-icon{
     display: none;
