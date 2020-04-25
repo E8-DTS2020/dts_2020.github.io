@@ -1,0 +1,87 @@
+/*responsive tablet*/
+@media all and (min-width: 670px){
+  .container .menu-icon{
+    display: none;
+  }  
+
+  .top-wrapper {
+    height: auto;
+  }
+
+  .content {
+    justify-content: flex-start;
+  }
+
+  .informasi {
+    border-radius: 10px;
+  }
+
+  .keterangan {
+    display: none;
+  }
+
+  .informasi h2 {
+    font-size: 14px;
+  }
+
+}
+
+@media all and (max-width: 670px){
+
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper {
+   height: auto;
+   padding-bottom: 20px;
+  }
+
+  .content {
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+  }
+  
+  .informasi {
+   width: 100%;
+   border-radius: 10px;
+  }
+
+  .informasi p {
+    font-size: 200%;
+  }
+
+  .informasi h2 {
+    font-size: 12px;
+  }
+  
+  .informasi.satu {
+    margin: 10px;
+  }
+
+  .informasi.dua {
+    margin: 10px;
+  }
+
+  .informasi.tiga {    
+    margin: 10px;
+  }
+
+  .informasi.empat {
+    margin: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .keterangan {
+    display: none;
+  }
+
+}
