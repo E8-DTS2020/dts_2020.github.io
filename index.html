@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="./src/korona.ico">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="animate.css">
   <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -16,7 +17,6 @@
       <div class="header-left">
         <img class="logo" src="./src/corona_1.png">
       </div>
-      <!-- Tambahkan ikon menu disini -->
       <span class="menu-icon fa fa-bars"></span>
       <div class="header-right">
         <a href="#">Beranda</a>
@@ -26,12 +26,22 @@
     </div>
   </header>
 
-  <!-- bagian 1: keterangan Jumlah Kasus, Sembuh & Meninggal -->
   <div class="top-wrapper">
     <div class="container">
-      <h1 class="title-inform">INFORMASI CORONA VIRUS</h1>
+      <h1 class="title-inform bounceInDown">INFORMASI CORONA VIRUS</h1>
       <div class="content">
-        <div class="informasi satu">
+        <!-- <section>
+          <div class="set">
+            <div><img src="src/korona_red.png"></div>
+            <div><img src="src/korona_red.png"></div>
+            <div><img src="src/korona_pth.png"></div>
+            <div><img src="src/korona_ijo.png"></div>
+            <div><img src="src/korona_ijo.png"></div>
+            <div><img src="src/korona_pth.png"></div>
+            <div><img src="src/korona_red.png"></div>
+          </div>
+        </section> -->
+        <div class="informasi satu bounceInLeft">
           <h2 class="terkonfirmasi">
             TERKONFIRMASI
           </h2>
@@ -42,7 +52,7 @@
             +192 Kasus
           </h2>
         </div>
-        <div class="informasi dua">
+        <div class="informasi dua bounceInRight">
           <h2 class="meninggal">
             Meninggal
           </h2>
@@ -53,7 +63,7 @@
             alhamdulillah
           </h2>
         </div>        
-        <div class="informasi tiga">
+        <div class="informasi tiga bounceInLeft">
           <h2 class="sembuh">
             Sembuh
           </h2>
@@ -64,7 +74,7 @@
             80% dari konfirmasi
           </h2>
         </div>
-        <div class="informasi empat">
+        <div class="informasi empat bounceInRight">
           <h2 class="Perawatan">
             Dalam Perawatan
           </h2>
@@ -79,15 +89,83 @@
     </div>
   </div>
 
-  <!-- pencegahan COVID-19 -->
   <div class="lesson-wrapper">
-
+    <div class="container">
+      <div class="heading">
+        <h1>Tentang Covid-19</h1>
+      </div>
+      <div class="heading">
+        <h2>Apa itu covid-19?</h2>
+      </div>
+      <div class="lessons">
+        <div class="lesson">
+          <div class="lesson-icon zoomIn">
+            <img src="src/corona1.png" align="right">
+          </div>
+          <p class="text-contents-left">Coronavirus Disease 2019 atau COVID-19 adalah penyakit baru yang dapat
+            menyebabkan gangguan pernapasan dan radang paru. Penyakit ini disebabkan 
+            oleh infeksi Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). 
+            Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa 
+            (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) 
+            sampai yang berkomplikasi berat (pneumonia atau sepsis).
+          </p>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="heading">
+        <h3>proses penularan covid-19</h3>
+      </div>
+      <div class="lessons">
+        <div class="lesson">
+          <div class="icon-left">
+            <img src="src/droplet.png" align="left">
+          </div>
+          <p class="text-contents-right">COVID-19 adalah penyakit baru dan para peneliti masih mempelajari bagaimana cara penularannya.
+            Dari berbagai penelitian, metode penyebaran utama penyakit ini diduga adalah melalui droplet saluran pernapasan dan kontak dekat dengan penderita. Droplet merupakan partikel kecil dari mulut penderita yang dapat mengandung virus penyakit, yang dihasilkan pada saat batuk, bersin, atau berbicara. Droplet dapat melewati sampai jarak tertentu (biasanya 1 meter).
+            <br><br>
+            Droplet bisa menempel di pakaian atau benda di sekitar penderita pada saat batuk atau bersin. Namun, partikel droplet cukup besar sehingga tidak akan bertahan atau mengendap di udara dalam waktu yang lama. Namun, masyarakat diwajibkan untuk menggunakan masker kain yang menutupi hidung dan mulut untuk mencegah penyebaran droplet.
+          </p>
+        </div>        
+        <div class="clear"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- pemberitahuan tentang Gejala COVID-19 -->
-  <div class="message-wrapper">
-
-  </div>
+  <div class="lesson-wrapper-nit">
+    <div class="container">
+      <div class="heading-nit">
+        <h2>Hal yang Tidak Boleh Dilakukan</h2>
+      </div>
+      <div class="lessons">
+        <div class="lesson-nit">
+          <div class="lesson-icon-nit">
+            <img src="./src/pesawat1.png" class="zoom-effect">
+          </div>
+          <p class="txt-contents">Bepergian ke luar rumah untuk hal yang tidak penting </p>
+        </div>
+        <div class="lesson-nit">
+          <div class="lesson-icon-nit">
+            <img src="./src/orang2.png" class="zoom-effect">
+          </div>
+          <p class="txt-contents">Berada dekat dengan orang yang sedang sakit, batuk atau bersin</p>
+        </div>
+        <div class="lesson-nit">
+          <div class="lesson-icon-nit">
+            <img src="./src/tangan3.png" class="zoom-effect">
+          </div>
+          <p class="txt-contents">Menyentuh mata, hidung, atau mulut dengan telapak tangan</p>
+        </div>
+        <div class="lesson-nit">
+          <div class="lesson-icon-nit">
+            <img src="./src/kotak4.png" class="zoom-effect">
+          </div>
+          <p class="txt-contents">Menimbun masker, hand sanitizer, atau perlengkapan medis lainnya</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <span class="btn message">Lihat Juga : Pertanyaan yang sering diajukan</span>
+    </div>    
+  </div>  
 
   <footer>
     <div class="container">
